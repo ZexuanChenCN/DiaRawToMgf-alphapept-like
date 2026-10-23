@@ -55,6 +55,23 @@ dotnet publish .\DiaRawToMgf.csproj -c Release --no-restore --no-self-contained 
 
 ## 3. 批量处理一个文件夹
 
+### 构建时遇到 CET 错误
+
+如果发布步骤显示 `Your Windows doesn't fully support CET`，说明 SDK 编译器的 EXE 启动遇到 Windows CET 兼容问题；此时发布未完成，因此 `artifacts\publish\DiaRawToMgf.exe` 可能不存在。
+
+先更新仓库，再选择兼容构建：
+
+```powershell
+git pull --ff-only
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\build.ps1 -CetCompatibility
+```
+
+该选项使用同一 SDK 的 `csc.dll`，通过已能启动的 `dotnet.exe` 执行，关闭共享编译器，并为本次生成的应用设置 `CETCompat=false`。这只取消本程序输出 EXE 的 CET 标记，不修改已安装的 SDK、系统注册表或其他程序的保护设置；feature 算法、.NET 10 目标框架及数值参数不变。取消 CET 标记意味着该输出不启用这项硬件影子栈保护；正常支持 CET 的机器继续用默认构建即可。[Microsoft CET 兼容性说明](https://learn.microsoft.com/en-us/dotnet/core/compatibility/interop/9.0/cet-support)。
+
+兼容构建也会运行自检。完成后按下面的普通命令启动 EXE 即可。若 `dotnet --version` 本身已经无法启动，应先解决 Windows/.NET 安装问题，而不是反复运行构建脚本。
+
+### 开始转换
+
 将下面的输入、输出路径替换为服务器上的实际路径：
 
 ```powershell
