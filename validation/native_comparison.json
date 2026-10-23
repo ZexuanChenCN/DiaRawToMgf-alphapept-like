@@ -1,0 +1,11 @@
+{
+  "mode": "native",
+  "reference_records": 215483,
+  "candidate_records": 241091,
+  "reference_ms2": 96183,
+  "candidate_ms2": 99571,
+  "common_ms2": 87682,
+  "candidate_pairs_with_same_charge_reference_within_10ppm": 107358,
+  "candidate_pair_match_fraction": 0.4453007370660871,
+  "native_feature_algorithm_is_not_equivalent": true
+}

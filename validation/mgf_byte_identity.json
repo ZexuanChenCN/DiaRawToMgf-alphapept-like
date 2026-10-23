@@ -1,0 +1,20 @@
+{
+  "raw_basename": "Astral_IPP-IP_HumanBCell-Lulinrong-20260723_DIA",
+  "csharp_algorithm": "alphapept-0.5.3-port-v5",
+  "python_reference": "AlphaPept 0.5.3 + ms2_centric_top5 export",
+  "max_candidates": 5,
+  "top_ms2_peaks": 250,
+  "reference_bytes": 1129259943,
+  "csharp_bytes": 1129259943,
+  "reference_sha256": "72693bf835c22e0446211b5fe441c6f641b9e3622d021bdb71c918fc29af45cb",
+  "csharp_sha256": "72693bf835c22e0446211b5fe441c6f641b9e3622d021bdb71c918fc29af45cb",
+  "byte_for_byte_identical": true,
+  "first_differing_byte_offset": null,
+  "bytes_compared": 1129259943,
+  "reference_export_completed_local": "2026-10-23 11:31:02 +08:00",
+  "csharp_run_started_local": "2026-10-23 16:36:54 +08:00",
+  "csharp_run_completed_local": "2026-10-23 16:41:02 +08:00",
+  "csharp_feature_cache": "",
+  "csharp_resume": false,
+  "scope": "One independently processed complete RAW, default feature settings, Windows. Timestamp evidence and run logs checked; direct byte comparison and SHA256 were checked before repository publication."
+}

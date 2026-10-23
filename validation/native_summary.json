@@ -1,0 +1,23 @@
+{
+  "Algorithm": "native-hill-isotope-v1",
+  "Fingerprint": "66AD2644306BCC8C4D86541A28658ED5AD38B5EE2CBF7C49B451D7FE61423E8C",
+  "Input": "Astral_IPP-IP_HumanBCell-Lulinrong-20260723_DIA.raw",
+  "Ms1Scans": 7859,
+  "Ms2Scans": 157168,
+  "Features": 274524,
+  "MatchedMs2": 99571,
+  "UnmatchedMs2": 57597,
+  "Spectra": 241091,
+  "CandidatePairsBeforeCap": 311641,
+  "Ms2WithCandidatesCapped": 8647,
+  "ReadSeconds": 43.6694244,
+  "FeatureSeconds": 39.6642774,
+  "ExportAndValidationSeconds": 130.0253385,
+  "TotalSeconds": 213.3590423,
+  "MgfBytes": 1263306583,
+  "OriginalScanNumbers": true,
+  "PeakOrder": "m/z ascending",
+  "FragmentDeconvolution": false,
+  "Validation": "PASS",
+  "FeatureAlgorithmEquivalentToAlphaPept": false
+}

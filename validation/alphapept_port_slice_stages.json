@@ -1,0 +1,123 @@
+[
+  {
+    "Stage": "first",
+    "Array": "first_ptr",
+    "ExpectedLength": 52930,
+    "ActualLength": 52930,
+    "Mismatches": 0,
+    "FirstMismatch": -1,
+    "Pass": true
+  },
+  {
+    "Stage": "first",
+    "Array": "first_data",
+    "ExpectedLength": 1188956,
+    "ActualLength": 1188956,
+    "Mismatches": 0,
+    "FirstMismatch": -1,
+    "Pass": true
+  },
+  {
+    "Stage": "first",
+    "Array": "first_counts",
+    "ExpectedLength": 52929,
+    "ActualLength": 52929,
+    "Mismatches": 0,
+    "FirstMismatch": -1,
+    "Pass": true
+  },
+  {
+    "Stage": "second",
+    "Array": "second_ptr",
+    "ExpectedLength": 50909,
+    "ActualLength": 50909,
+    "Mismatches": 0,
+    "FirstMismatch": -1,
+    "Pass": true
+  },
+  {
+    "Stage": "second",
+    "Array": "second_data",
+    "ExpectedLength": 1044903,
+    "ActualLength": 1044903,
+    "Mismatches": 0,
+    "FirstMismatch": -1,
+    "Pass": true
+  },
+  {
+    "Stage": "second",
+    "Array": "second_counts",
+    "ExpectedLength": 50908,
+    "ActualLength": 50908,
+    "Mismatches": 0,
+    "FirstMismatch": -1,
+    "Pass": true
+  },
+  {
+    "Stage": "dedup",
+    "Array": "dedup_ptr",
+    "ExpectedLength": 33756,
+    "ActualLength": 33756,
+    "Mismatches": 0,
+    "FirstMismatch": -1,
+    "Pass": true
+  },
+  {
+    "Stage": "dedup",
+    "Array": "dedup_data",
+    "ExpectedLength": 506675,
+    "ActualLength": 506675,
+    "Mismatches": 0,
+    "FirstMismatch": -1,
+    "Pass": true
+  },
+  {
+    "Stage": "split",
+    "Array": "split_ptr",
+    "ExpectedLength": 43493,
+    "ActualLength": 43493,
+    "Mismatches": 0,
+    "FirstMismatch": -1,
+    "Pass": true
+  },
+  {
+    "Stage": "filter",
+    "Array": "filtered_ptr",
+    "ExpectedLength": 42997,
+    "ActualLength": 42997,
+    "Mismatches": 0,
+    "FirstMismatch": -1,
+    "Pass": true
+  },
+  {
+    "Stage": "filter",
+    "Array": "filtered_data",
+    "ExpectedLength": 488964,
+    "ActualLength": 488964,
+    "Mismatches": 0,
+    "FirstMismatch": -1,
+    "Pass": true
+  },
+  {
+    "Stage": "stats",
+    "MaxAbsoluteError": 0,
+    "SortOrderPass": true,
+    "UpperBoundsPass": true
+  },
+  {
+    "Stage": "pre_isotopes",
+    "Groups": 4155,
+    "Pass": true
+  },
+  {
+    "Stage": "isotopes",
+    "Same": 4683,
+    "Reference": 4683,
+    "Actual": 4683
+  },
+  {
+    "Stage": "report",
+    "MaxAbsoluteError": 0,
+    "LookupDifferences": 0
+  }
+]

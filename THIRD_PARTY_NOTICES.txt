@@ -1,0 +1,30 @@
+AlphaPept 0.5.3 C# port
+======================
+AlphaPept*.cs adapt feature_finding.py, chem.py and constants.py from AlphaPept
+0.5.3, released under the Apache License 2.0. Original project and source:
+https://github.com/MannLabs/alphapept
+Original package author: Maximilian T. Strauss; copyright belongs to the
+original AlphaPept authors and contributors.
+The original Apache license is reproduced in licenses/AlphaPept-LICENSE.txt.
+Changes: translated to C#/.NET 10; array storage, parallel execution and candidate
+indexing were adapted while preserving numerical operations, traversal order,
+bootstrap random draws, and observed upstream edge cases for compatibility.
+This is a separate port, not an official AlphaPept release.
+
+ApNumerics.NumbaArgSort and ApRandom adapt Numba 0.63.1 quicksort and random
+integer selection (MT19937); Copyright (c) 2012, Anaconda, Inc.
+https://github.com/numba/numba/tree/0.63.1
+The BSD license is reproduced in licenses/Numba-LICENSE.txt.
+
+ApNumerics.NumpyArgSort adapts NumPy 1.26.4 aquicksort ordering (Windows build).
+MT19937 initialization/generation follows the implementation distributed by
+NumPy/Numba. Copyright (c) 2005-2023, NumPy Developers; additional copyright
+notices and licenses are reproduced in licenses/NumPy-LICENSE.txt.
+https://github.com/numpy/numpy/tree/v1.26.4
+
+ThermoFisher.CommonCore.RawFileReader and .Data 8.0.6 remain subject to Thermo
+Fisher Scientific's original SDK license. They are dependencies, not ported code.
+https://github.com/thermofisherlsms/RawFileReader
+
+Python, AlphaPept, Numba and NumPy are not runtime dependencies. Python scripts
+in qa/ are development-only reference generation/comparison utilities.

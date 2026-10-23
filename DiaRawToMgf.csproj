@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ThermoFisher.CommonCore.RawFileReader" Version="8.0.6" />
+    <PackageReference Include="ThermoFisher.CommonCore.Data" Version="8.0.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="README.md;LICENSE;THIRD_PARTY_NOTICES.txt;licenses\**\*;validation\*.json;validation\README.txt" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

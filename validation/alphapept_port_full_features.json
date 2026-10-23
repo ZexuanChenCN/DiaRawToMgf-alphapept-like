@@ -1,0 +1,78 @@
+{
+  "reference_features": 223027,
+  "candidate_features": 223027,
+  "same_ids": true,
+  "columns": {
+    "charge": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "fwhm": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "mass": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "ms1_int_max_apex": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "ms1_int_max_area": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "ms1_int_sum_apex": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "ms1_int_sum_area": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "mz": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "mz_most_abundant": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "mz_std": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "n_isotopes": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "rt_apex": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "rt_end": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    },
+    "rt_start": {
+      "max_abs_error": 0.0,
+      "exact_fraction": 1.0,
+      "agreement_rtol_1e_12": 1.0
+    }
+  },
+  "pass": true
+}
